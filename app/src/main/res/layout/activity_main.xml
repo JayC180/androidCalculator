@@ -37,7 +37,7 @@
         android:ems="10"
         android:gravity='center_horizontal'
         android:inputType="numberSigned"
-        android:text="First Number:"
+        android:hint="First Number:"
         app:layout_constraintBottom_toTopOf="@+id/num2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
         android:ems="10"
         android:gravity='center_horizontal'
         android:inputType="numberSigned"
-        android:text="Second Number:"
+        android:hint="Second Number:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/num1"
         app:layout_constraintTop_toBottomOf="@+id/num1" />
